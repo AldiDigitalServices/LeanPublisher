@@ -1,11 +1,11 @@
 repo_name: spryker-community/LeanPublisher
-report_id: 65407fc89636eda24557edf298bd0023
+report_id: e1c8ba0944691d6c952d0008989397bc
 repo_type: Public
-timestamp: '2023-11-09T17:23:02+00:00'
-requested_by: greinerdavid
+timestamp: '2023-12-14T09:51:34+00:00'
+requested_by: gxjansen
 provider: github
 branch: main
-detected_tools_count: 3
+detected_tools_count: 8
 tools:
 - name: PHP
   description: A popular general-purpose scripting language that is especially suited
@@ -37,3 +37,68 @@ tools:
   detection_source: ".github/workflows/php.yml"
   last_updated_by: David Greiner
   last_updated_on: 2023-02-24 12:47:08.000000000 Z
+- name: spryker/event
+  description: Event module
+  package_url: https://packagist.org/spryker/event
+  version: '2.9'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/LeanPublisher/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: David Greiner
+  last_updated_on: 2023-03-14 15:10:41.000000000 Z
+- name: spryker/kernel
+  description: Kernel module
+  package_url: https://packagist.org/spryker/kernel
+  version: '3.65'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/LeanPublisher/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: David Greiner
+  last_updated_on: 2023-03-14 15:10:41.000000000 Z
+- name: spryker/propel
+  description: Propel module
+  package_url: https://packagist.org/spryker/propel
+  version: '3.34'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/LeanPublisher/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: David Greiner
+  last_updated_on: 2023-03-14 15:10:41.000000000 Z
+- name: spryker/storage
+  description: Storage module
+  package_url: https://packagist.org/spryker/storage
+  version: '3.18'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/LeanPublisher/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: David Greiner
+  last_updated_on: 2023-03-14 15:10:41.000000000 Z
+- name: spryker/util-encoding
+  description: UtilEncoding module
+  package_url: https://packagist.org/spryker/util-encoding
+  version: '2.1'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/LeanPublisher/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: David Greiner
+  last_updated_on: 2023-03-14 15:10:41.000000000 Z
